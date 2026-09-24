@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Flame -->
+    <path
+        android:pathData="M54,23 C52,28 47,34 42,40 C36,47 32,54 32,63 C32,75.2 41.8,85 54,85 C66.2,85 76,75.2 76,63 C76,51 68,43 62,38 C60.5,36.7 59,34 59,31 C59,27 61,25 61,25 C61,25 55,27 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFF5376" />
+                <item android:offset="0.5" android:color="#FFFF2E63" />
+                <item android:offset="1.0" android:color="#FFA259FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Flame -->
+    <path
+        android:pathData="M54,42 C51,46 47,51 46,56 C45,61 48,67 54,77 C60,67 63,61 62,56 C61,50 56,46 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="42"
+                android:endX="54"
+                android:endY="77"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFE600" />
+                <item android:offset="0.6" android:color="#FFFF9F1C" />
+                <item android:offset="1.0" android:color="#FFFF2E63" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Viral Upward Trending Arrow / Pulse Graph -->
+    <path
+        android:pathData="M38,68 L48,58 L54,64 L67,49"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+        
+    <!-- Trending Arrowhead -->
+    <path
+        android:pathData="M61,49 L67,49 L67,55"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Pulse Dot -->
+    <path
+        android:pathData="M67,49m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#08D9D6" />
+</vector>
